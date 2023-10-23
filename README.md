@@ -1,3 +1,8 @@
+This project was created with React App and Tailwind.
+
+Project completed on 23/10/2023.
+
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
