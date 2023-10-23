@@ -35,8 +35,6 @@ export default function Card() {
     setTask(updatedTasks);
   }
 
-  
-
   return (
       <div className='container h-full m-auto px-4 py-20 sm:px-8 md:px-4 lg:px-24 xl:px-40'>
           <div className='w-full min-h-full px-8 py-12 m-auto bg-orange-200 text-center shadow-lg shadow-slate-950/80 rounded-lg md:max-w-lg lg:max-w-xl'>
