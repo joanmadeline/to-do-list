@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import ToDoForm from './ToDoForm';
 import TaskList from './TaskList';
+import logo from '../logo.png';
 // import './Card.css'
 
 export default function Card() {
@@ -36,7 +37,8 @@ export default function Card() {
   }
 
   return (
-      <div className='container h-full m-auto px-4 py-20 sm:px-8 md:px-4 lg:px-24 xl:px-40'>
+      <div className='container h-full m-auto px-4 pb-20 sm:px-8 md:px-4 lg:px-24 xl:px-40'>
+        <img src={logo} className='h-20 w-auto m-auto py-2' alt="Logo"/>
           <div className='w-full min-h-full px-8 py-12 m-auto bg-orange-200 text-center shadow-lg shadow-slate-950/80 rounded-lg md:max-w-lg lg:max-w-xl'>
               <h1 className='uppercase text-3xl font-bold text-orange-600 mb-6'>To Do List</h1>
               <ToDoForm addTaskName={addTask} />
